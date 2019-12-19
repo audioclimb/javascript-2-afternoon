@@ -15,6 +15,11 @@
 */
 
 //Code here
+var me = {
+  name: 'Tim',
+  age: 42,
+}
+alert(me.name);
 
 ////////// PROBLEM 2 //////////
 
@@ -24,6 +29,14 @@
 */
 
 //Code here
+var favoriteThings = {
+  band: 'Metallica',
+  food: 'Pizza',
+  person: 'Spiderman',
+  book: 'Enders Game',
+  movie: 'Shawshank Redemption',
+  holiday: 'Thanksgiving'
+}
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
