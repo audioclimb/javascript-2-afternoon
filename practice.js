@@ -14,7 +14,6 @@
   Then alert your name using dot notation.
 */
 
-//Code here
 var me = {
   name: 'Tim',
   age: 42,
@@ -28,7 +27,6 @@ alert(me.name);
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
 
-//Code here
 var favoriteThings = {
   band: 'Metallica',
   food: 'Pizza',
@@ -43,14 +41,16 @@ var favoriteThings = {
   and then another key named 'brand' with the value being your favorite brand.
 */
 
-//Code here
+favoriteThings.car = ('Impreza')
+favoriteThings.brand = ('Subaru')
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-//Code here
+favoriteThings.food = ('Chicken Nuggets')
+favoriteThings.book = ('Harry Potter')
 
 ////////// PROBLEM 3 //////////
 
@@ -62,7 +62,10 @@ var favoriteThings = {
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack.
 */
 
-//Code here
+let backPack = {};
+var item = ('firstPocket')
+
+
 
 /*
   After you do the above, alert your entire backPack object.
