@@ -63,15 +63,15 @@ favoriteThings.book = ('Harry Potter')
 */
 
 let backPack = {};
-var item = ('firstPocket')
-
+var item = ('firstPocket');
+backPack['firstPocket'] = 'chapstick'
 
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
-//Code here
+
 
 /*
 You probably noticed that it just alerted [object Object].
